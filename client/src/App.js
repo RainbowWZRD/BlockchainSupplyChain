@@ -51,6 +51,8 @@ class App extends Component {
     })
   }
 
+  
+
   handleSubmit = async () => {
     const { cost, itemName } = this.state;
     console.log(itemName, cost, this.itemManager);
